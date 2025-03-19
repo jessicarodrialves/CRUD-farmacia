@@ -31,8 +31,8 @@ public class Produto {
 	
 	@NotNull(message = "A validade é obrigatoria")
 	private LocalDate validade;
-	
-	
+
+
 	public Long getId() {
 		return id;
 	}

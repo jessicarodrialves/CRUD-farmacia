@@ -17,8 +17,7 @@ public class Categoria {
 	
 	@NotBlank(message = "O atributo descricao é obrigatorio")
 	private String descricao;
-	
-	
+
 	public Long getId() {
 		return id;
 	}
